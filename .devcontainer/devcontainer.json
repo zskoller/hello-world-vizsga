@@ -1,0 +1,12 @@
+{
+  "name": "Hello World React Dev Container",
+  "build": {
+    // Itt hivatkozunk a fő mappában lévő Dockerfile-ra
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  // Ha elindul a konténer, ezt a parancsot futtassa (telepítés)
+  "postCreateCommand": "npm install",
+  // Ezen a porton lesz elérhető az alkalmazás
+  "forwardPorts": [8080]
+}
