@@ -12,6 +12,7 @@ A projekt HTTP-n keresztül elérhető, és egy egyszerű üdvözlő szöveget j
 ## A projekt függőségeinek telepítéséhez futtasd a következő parancsot a projekt gyökérkönyvtárában:
 
  npm install
+ #
  npm run dev
 
 ## Build (Alkalmazás építése)
